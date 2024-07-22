@@ -20,6 +20,9 @@ Using this document with the intent of being compliant with any formats other th
 
 If readers desire documentation that is fully compatible with the SOR format as defined by SR-4731 (or derivatives), then they should purchase the relevant documents from the rights holders of that standard.
 
+# Copyright Statement
+Copyright 2024 BaldrAI Ltd.
+
 # OpenSOD - RFC 0001
 
 This document defines the Open Standard OTDR Data (or OpenSOD for short). Any compatibility or lack thereof with other formats is circumstantial. 
