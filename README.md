@@ -20,8 +20,8 @@ Using this document with the intent of being compliant with any formats other th
 
 If readers desire documentation that is fully compatible with the SOR format as defined by SR-4731 (or derivatives), then they should purchase the relevant documents from the rights holders of that standard.
 
-# Copyright Statement
-Copyright 2024 BaldrAI Ltd.
+# Implementations
+ * [OTDRFile](https://github.com/BaldrAI/OTDRFile) - The official C# implementation of OpenSOD.
 
 # OpenSOD - RFC 0001
 
@@ -537,3 +537,6 @@ The `Name` field is a `string` that matches the block name `KeyEvents`.
 The `Ver` field is a `uint16` this value should be `1000` + the supported RFC number (e.g. for **OpenSOD RFC 0001**, the `Ver` would be `1001`).
 
 The `OPENSOD` field is a `char[7]` that contains the word `"OPENSOD"`.
+
+# Copyright Statement
+Copyright 2024 BaldrAI Ltd.
