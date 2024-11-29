@@ -29,11 +29,15 @@ This document defines the Open Standard OTDR Data (or OpenSOD for short). Any co
 
 To properly understand this document, some rudimentary knowledge of Optical Time Delay Reflectometry is recommended.
 
+All data the OpenSOD format uses Little-Endian byte order.
+
 ## File Extensions
 
 While implementers are welcome to use (and support) any file extension they see fit, it is suggested that the`.SOD` extension is used.
 
 ## Definitions
+
+Byte order = Little-Endian 
 
 `uint16` = A 16-bit long unsigned integer (a.k.a. an `unsigned short`).
 
